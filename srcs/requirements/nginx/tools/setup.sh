@@ -5,7 +5,7 @@ mkdir -p /etc/nginx/ssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
     -keyout /etc/nginx/ssl/inception.key \
     -out /etc/nginx/ssl/inception.crt \
-    -subj "/C=ES/ST=Madrid/O=42/OU=42/CN=login.42.fr"
+    -subj "/C=ES/ST=Madrid/O=42/OU=42/CN=mnjie-me.42.fr"
 
 # 2. Writes NGINX configuration
 cat > /etc/nginx/sites-available/inception << 'EOF'
@@ -13,7 +13,7 @@ server {
     listen 443 ssl;
     listen [::]:443 ssl;
 
-    server_name login.42.fr;
+    server_name mnjie-me.42.fr;
     root /var/www/html;
     index index.php;
 
