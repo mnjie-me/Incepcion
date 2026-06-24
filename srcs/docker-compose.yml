@@ -47,17 +47,9 @@ services:
 volumes:
   wordpress:
     driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: /home/mnjie-me/data/wordpress
 
   mariadb:
     driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: /home/mnjie-me/data/mariadb
 
 networks:
   inception:
