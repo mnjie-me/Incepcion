@@ -60,9 +60,9 @@ Credentials are stored in the **.env** file and **secrets** folder. They are **n
 
 ### srcs/.env 
 
-Contains all the usernames, passwords and configuration. You need to create the .env file, write and fill in these variables:
+Contains all the usernames, passwords and configuration. YYou need to create the .env file, write and fill in these variables:
 
-```
+```bash
 > **DOMAIN_NAME=** *domain name for accesssing the web.*  
 > **MYSQL_DATABASE=** *name of the database to be created.*  
 > **MYSQL_USER=** *database user name for WordPress connection.*  
