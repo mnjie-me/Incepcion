@@ -60,7 +60,7 @@ Credentials are stored in the **.env** file and **secrets** folder. They are **n
 
 ### srcs/.env 
 
-Contains all the usernames, passwords and configuration. You need to write and fill in these variables:
+Contains all the usernames, passwords and configuration. You need to create the .env file, write and fill in these variables:
 
 ```
 > **DOMAIN_NAME=** *domain name for accesssing the web.*  
