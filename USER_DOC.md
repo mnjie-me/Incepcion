@@ -62,7 +62,8 @@ Credentials are stored in the **.env** file and **secrets** folder. They are **n
 
 Contains all the usernames, passwords and configuration. You need to write and fill in these variables:
 
-> **DOMAIN_NAME=** *domaine name for accesssing the web.*  
+```
+> **DOMAIN_NAME=** *domain name for accesssing the web.*  
 > **MYSQL_DATABASE=** *name of the database to be created.*  
 > **MYSQL_USER=** *database user name for WordPress connection.*  
 > **MYSQL_PASSWORD=** *database  user password for WordPress.*  
