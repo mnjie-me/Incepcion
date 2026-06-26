@@ -1,6 +1,6 @@
 # USER DOCUMENTATION - INCEPTION
 
-## SERVICES PROVIDED
+## Services Provided
 
 This project runs a WordPress website using three services:
 
